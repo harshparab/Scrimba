@@ -6,7 +6,7 @@ body {
 
 .wrapper {
   max-width: 650px;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 100px 0;
   background-image: url("/images/train-station.jpg");
   background-size: cover;
