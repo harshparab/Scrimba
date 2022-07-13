@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 100px 0;
+  background-image: url("/images/train-station.jpg");
+  background-size: cover;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.count-el {
+  padding: 15px 0;
+  font-size: 48px;
+}
+
+.increment-btn {
+  display: block;
+  max-width: 650px;
+  margin: 10px auto;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  background-color: #8a2ce2;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.save-btn {
+  display: block;
+  max-width: 650px;
+  margin: 10px auto;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  background-color: #0000ff;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.records-el {
+  color: #ffffff;
+  background: #000000;
+  display: inline-block;
+  font-size: 24px;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
