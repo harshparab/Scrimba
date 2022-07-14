@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Basketball Scorecard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h2 class="home-score-title">HOME</h2>
+        <h3 class="home-score-el">0</h3>
+        <button class="one-point-btn" onClick="addOnePointHome()">+1</button>
+        <button class="two-point-btn" onClick="addTwoPointsHome()">+2</button>
+        <button class="three-point-btn" onClick="addThreePointsHome()">
+          +3
+        </button>
+      </div>
+      <div>
+        <h2 class="away-score-title">AWAY</h2>
+        <h3 class="away-score-el">0</h3>
+        <button class="one-point-btn" onClick="addOnePointAway()">+1</button>
+        <button class="two-point-btn" onClick="addTwoPointsAway()">+2</button>
+        <button class="three-point-btn" onClick="addThreePointsAway()">
+          +3
+        </button>
+      </div>
+    </div>
+    <footer class="new-game-footer">
+      <button class="new-game-btn" onClick="newGame()">NEW GAME</button>
+    </footer>
+  </body>
+</html>
