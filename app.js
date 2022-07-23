@@ -9,37 +9,37 @@ const newGameBtn = document.querySelector("new-game-btn");
 let homeScore = 0;
 let awayScore = 0;
 
-function addOnePointHome() {
+const addOnePointHome = () => {
     homeScore++;
     homeScoreEl.textContent = homeScore;
 }
 
-function addTwoPointsHome() {
+const addTwoPointsHome = () => {
     homeScore += 2;
     homeScoreEl.textContent = homeScore;
 }
 
-function addThreePointsHome() {
+const addThreePointsHome = () => {
     homeScore += 3;
     homeScoreEl.textContent = homeScore;
 }
 
-function addOnePointAway() {
+const addOnePointAway = () => {
     awayScore++;
     awayScoreEl.textContent = awayScore;
 }
 
-function addTwoPointsAway() {
+const addTwoPointsAway = () => {
     awayScore += 2;
     awayScoreEl.textContent = awayScore;
 }
 
-function addThreePointsAway() {
+const addThreePointsAway = () => {
     awayScore += 3;
     awayScoreEl.textContent = awayScore;
 }
 
-function newGame() {
+const newGame = () => {
     homeScore = 0;
     awayScore = 0;
     homeScoreEl.textContent = 0;
