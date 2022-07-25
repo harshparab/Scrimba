@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Karla;
+  src: url("./fonts/Karla-Regular.ttf");
+}
+
+body {
+  width: 550px;
+  margin: 0 auto;
+  background-color: #1f2937;
+  font-family: Karla;
+}
+
+.heading {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 800;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+.green-utility-class {
+  color: #4adf86;
+  display: block;
+}
+
+.sub-heading {
+  color: #d5d4d8;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.generate-btn {
+  font-family: Karla;
+  background-color: #4adf86;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.horizontal-line {
+  border: 1px solid #2f3e53;
+  margin-bottom: 35px;
+}
+
+.passwords {
+  display: flex;
+  justify-content: space-around;
+}
+
+.password-one,
+.password-two {
+  padding: 21px 100px;
+  background-color: #273549;
+  color: #55f991;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  border-radius: 6px;
+  margin: 10px 12px;
+}
