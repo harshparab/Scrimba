@@ -14,8 +14,8 @@ const generatePassword = () => {
         firstPassword += characters[(Math.trunc(Math.random()*characters.length))];
         secondPassword += characters[(Math.trunc(Math.random()*characters.length))];
     }
-    passwordOne.style.padding = "5px 50px";
-    passwordTwo.style.padding = "5px 50px";
+    passwordOne.style.padding = "5px 45px";
+    passwordTwo.style.padding = "5px 45px";
     
     passwordOne.textContent = firstPassword;
     passwordTwo.textContent = secondPassword;

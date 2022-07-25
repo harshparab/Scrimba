@@ -4,8 +4,9 @@
 }
 
 body {
-  width: 550px;
+  max-width: 550px;
   margin: 0 auto;
+  padding: 0 10px;
   background-color: #1f2937;
   font-family: Karla;
 }
@@ -57,7 +58,7 @@ body {
 
 .password-one,
 .password-two {
-  padding: 21px 100px;
+  padding: 21px 90px;
   background-color: #273549;
   color: #55f991;
   font-size: 16px;
